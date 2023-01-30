@@ -119,4 +119,4 @@ class ZingController {
    }
 }
 
-module.exports = new ZingController()
+module.exports = new ZingController();

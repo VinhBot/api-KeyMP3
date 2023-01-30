@@ -42,8 +42,8 @@ app.use("/api/", router)
 app.use("/", (req, res) => {
    console.log("Home")
    res.json("Home")
-})
+});
 
 app.listen(3000, () => {
    console.log(`Server start on port`)
-})
+});
